@@ -1,0 +1,55 @@
+.admin-users {
+    margin: 20px;
+    overflow: scroll;
+
+    h2 {
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+  
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+  
+    th, td {
+      padding: 10px;
+      border: 1px solid #ccc;
+      text-align: left;
+    }
+  
+    th {
+      background-color: #f0f0f0;
+    }
+  
+    tr {
+      &:nth-child(even) {
+        background-color: #f9f9f9;
+      }
+  
+      &:hover {
+        background-color: #f1f1f1;
+      }
+    }
+  
+    input {
+      padding: 5px;
+      width: 100%;
+    }
+  
+    button {
+      margin-right: 5px;
+      padding: 5px 10px;
+      margin: 3px;
+      border: none;
+      background-color: #007bff;
+      color: #fff;
+      cursor: pointer;
+    }
+  
+    button:hover {
+      background-color: #0056b3;
+    }
+  }
+  

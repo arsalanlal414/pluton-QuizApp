@@ -1,0 +1,55 @@
+.quiz-history {
+    border-radius: 5px;
+    padding: 20px;
+  
+    h2 {
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+  
+    .results-list {
+      list-style: none;
+      padding: 0;
+    }
+  
+    .quiz-result {
+      margin-bottom: 20px;
+      padding: 15px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      background-color: #f9f9f9;
+  
+      h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+  
+      p {
+        margin-bottom: 5px;
+      }
+  
+      .date {
+        color: #777;
+      }
+  
+      .score {
+        color: #27ae60;
+      }
+    }
+    
+    .filter {
+      margin-top: 20px;
+  
+      label {
+        font-weight: bold;
+        margin-right: 10px;
+      }
+  
+      input {
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+    }
+  }
+  
